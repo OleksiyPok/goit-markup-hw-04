@@ -349,33 +349,6 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-/* .section.features .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  width: 270px;
-  background-color: var(--secondary-bg-color);
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.section.features .item:nth-child(1)::before {
-  background-image: url('../images/antenna.svg');
-}
-
-.section.features .item:nth-child(2)::before {
-  background-image: url('../images/clock.svg');
-}
-
-.section.features .item:nth-child(3)::before {
-  background-image: url('../images/diagram.svg');
-}
-
-.section.features .item:nth-child(4)::before {
-  background-image: url('../images/astronaut.svg');
-} */
-
 .section.features .section-text {
   margin-top: 10px;
 }
@@ -388,22 +361,19 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-.section.team .item {
-  height: 368px;
+.section.team .item.card {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.section.team .personal-data {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* h3 */
 .section.team .section-subtitle {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -417,6 +387,43 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+}
+
+.sociallink {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+  justify-content: center;
+}
+
+.sociallink__item:not(:first-child) {
+  margin-left: 10px;
+}
+.sociallink__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sociallink__link:hover,
+.sociallink__link:focus {
+  background-color: var(--secondary-icon-color);
+}
+
+.sociallink__link:hover .sociallink__icon,
+.sociallink__link:focus .sociallink__icon {
+  fill: var(--primary-bg-color);
+}
+
+.sociallink__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-icon-color);
 }
 
 .section.customers .container {
