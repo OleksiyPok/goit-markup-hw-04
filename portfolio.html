@@ -18,174 +18,200 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
-        <a href="./index.html" class="logo link-res">Web<span class="logo-span">Studio</span></a>
-        <nav class="site-nav">
-          <ul class="list site-nav-list list-res">
-            <li class="item">
-              <a href="./index.html" class="link-site link-res">Studio</a>
+      <div class="container header-container">
+        <div class="header-logo">
+          <a href="./index.html" class="logo logo-link-header link-res">
+            Web<span class="logo-span-header">Studio</span>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul class="nav-menu list-res">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link current link-res">Studio</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link-site current link-res">Portfolio</a>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link link-res">Portfolio</a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">Contacts</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link link-res">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="list header-contact list-res">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link-mail link-res">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a href="tel:+12127724150" class="link-tel link-res">+1 212-772-4150</a>
-          </li>
-        </ul>
+        <div class="header-contacts">
+          <ul class="contacts-list-header list-res">
+            <li class="contacts-item-header">
+              <div class="contact-group">
+                <svg class="contact-icon" width="16" height="12">
+                  <use href="./images/icons.svg#envelope"></use>
+                </svg>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contact-link contact-link-header link-res"
+                >
+                  info@devstudio.com
+                </a>
+              </div>
+            </li>
+            <li class="contacts-item-header">
+              <div class="contact-group">
+                <svg class="contact-icon" width="16" height="16">
+                  <use href="./images/icons.svg#smartphone"></use>
+                </svg>
+                <a href="tel:+12127724150" class="contact-link contact-link-header link-res">
+                  +1 212-772-4150
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+
     <!-- Main -->
     <main>
       <!-- Section Portfolio -->
-      <section class="section portfolio">
-        <div class="container">
+      <section class="section section-portfolio">
+        <div class="container portfolio-container">
           <h1 class="title display-none">Portfolio</h1>
           <h2 class="section-title display-none">Portfolio</h2>
-          <ul class="list filter list-res">
-            <li class="item">
-              <button type="button" class="button">All</button>
+          <ul class="list portfolio-filter-list list-res">
+            <li class="portfolio-filter-item">
+              <button type="button" class="portfolio-button">All</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Web-sites</button>
+            <li class="portfolio-filter-item">
+              <button type="button" class="portfolio-button">Web-sites</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Apps</button>
+            <li class="portfolio-filter-item">
+              <button type="button" class="portfolio-button">Apps</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Design</button>
+            <li class="portfolio-filter-item">
+              <button type="button" class="portfolio-button">Design</button>
             </li>
-            <li class="item">
-              <button type="button" class="button">Marketing</button>
+            <li class="portfolio-filter-item">
+              <button type="button" class="portfolio-button">Marketing</button>
             </li>
           </ul>
-          <ul class="list portfolio list-res">
-            <li class="item">
-              <a href="#" class="link-site link-res">
+          <ul class="list portfolio-set-list list-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/technokryak.jpg"
                   alt="Технокряк"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Technoduck</h3>
-                  <p class="section-text">Web-site</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Technoduck</h3>
+                  <p class="section-text portfolio-text">Web-site</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/new-orlean-vs-golden-star.jpg"
                   alt="Poster New Orlean vs Golden Star"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Poster New Orlean vs Golden Star</h3>
-                  <p class="section-text">Design</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">
+                    Poster New Orlean vs Golden Star
+                  </h3>
+                  <p class="section-text portfolio-text">Design</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/seafood.jpg"
                   alt="Seafood Restaurant"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Seafood Restaurant</h3>
-                  <p class="section-text">Apps</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Seafood Restaurant</h3>
+                  <p class="section-text portfolio-text">Apps</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/prime.jpg"
                   alt="Project Prime"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Project Prime</h3>
-                  <p class="section-text">Marketing</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Project Prime</h3>
+                  <p class="section-text portfolio-text">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/boxes.jpg"
                   alt="Project Boxes"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Project Boxes</h3>
-                  <p class="section-text">Apps</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Project Boxes</h3>
+                  <p class="section-text portfolio-text">Apps</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/no-borders.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Inspiration has no Borders</h3>
-                  <p class="section-text">Web-site</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Inspiration has no Borders</h3>
+                  <p class="section-text portfolio-text">Web-site</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/limited-edition.jpg"
                   alt="Limited Edition"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Limited Edition</h3>
-                  <p class="section-text">Design</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Limited Edition</h3>
+                  <p class="section-text portfolio-text">Design</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
-                <img src="./images/lab.jpg" alt="Project LAB" width="370" class="link-site-img" />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Project LAB</h3>
-                  <p class="section-text">Marketing</p>
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
+                <img src="./images/lab.jpg" alt="Project LAB" width="370" class="portfolio-img" />
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Project LAB</h3>
+                  <p class="section-text portfolio-text">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="link-site link-res">
+            <li class="portfolio-set-item">
+              <a href="#" class="portfolio-link link-res">
                 <img
                   src="./images/business.jpg"
                   alt="Growing Business"
                   width="370"
-                  class="link-site-img"
+                  class="portfolio-img"
                 />
-                <div class="link-site-txt">
-                  <h3 class="section-subtitle">Growing Business</h3>
-                  <p class="section-text">Apps</p>
+                <div class="portfolio-description-group">
+                  <h3 class="section-subtitle portfolio-subtitle">Growing Business</h3>
+                  <p class="section-text portfolio-text">Apps</p>
                 </div>
               </a>
             </li>
@@ -193,29 +219,95 @@
         </div>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo link-res">Web<span class="logo-span">Studio</span></a>
-        <address class="address">
-          <ul class="list footer-contact list-res">
-            <li class="item">
-              <a
-                href="https://goo.gl/maps/UcGMmtQmXpVpu3WY8"
-                target="_blank"
-                class="footer-location link-res"
-              >
-                695 Park Ave, NY 10065, USA
-              </a>
-            </li>
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link-mail link-res">info@devstudio.com</a>
-            </li>
-            <li class="item">
-              <a href="tel:+12127724150" class="link-tel link-res">+1 212-772-4150</a>
-            </li>
-          </ul>
-        </address>
+      <div class="container footer-container">
+        <div class="footer-first-column">
+          <a href="./index.html" class="logo logo-link-footer link-res">
+            Web<span class="logo-span-footer">Studio</span>
+          </a>
+          <address class="footer-contacts">
+            <ul class="contacts-list-footer list-res">
+              <li class="contacts-item-footer">
+                <a
+                  href="https://goo.gl/maps/UcGMmtQmXpVpu3WY8"
+                  target="_blank"
+                  class="contact-link contact-link-footer contact-location-footer link-res"
+                >
+                  695 Park Ave, NY 10065, USA
+                </a>
+              </li>
+              <li class="contacts-item-footer">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contact-link contact-link-footer contact-mail-footer link-res"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="contacts-item-footer">
+                <a
+                  href="tel:+12127724150"
+                  class="contact-link contact-link-footer contact-tel-footer link-res"
+                >
+                  +1 212-772-4150
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-second-column">
+          <div class="sociallink">
+            <p class="sociallink-text-footer">Find us on</p>
+            <ul class="sociallink-list sociallink-list-footer list-res">
+              <li class="sociallink-item sociallink-item-footer list-res">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="sociallink-link sociallink-link-footer"
+                >
+                  <svg class="sociallink-icon sociallink-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sociallink-item sociallink-item-footer list-res">
+                <a
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                  class="sociallink-link sociallink-link-footer"
+                >
+                  <svg class="sociallink-icon sociallink-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sociallink-item sociallink-item-footer list-res">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="sociallink-link sociallink-link-footer"
+                >
+                  <svg class="sociallink-icon sociallink-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sociallink-item sociallink-item-footer list-res">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="sociallink-link sociallink-link-footer"
+                >
+                  <svg class="sociallink-icon sociallink-icon-footer" width="20" height="20">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
