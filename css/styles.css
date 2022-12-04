@@ -115,7 +115,7 @@ body {
   margin-left: auto;
 }
 
-.contact-group {
+.contact-group-header {
   display: flex;
   align-items: center;
   gap: 10px;
