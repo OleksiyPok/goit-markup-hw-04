@@ -134,18 +134,8 @@ body {
   color: currentColor;
 }
 
-.contacts-item-header:hover,
-.contacts-item-header:focus,
-.contacts-item-footer:hover,
-.contacts-item-footer:focus {
-  color: var(--tertiary-color);
-  fill: var(--tertiary-color);
-}
-
-.contacts-item-header:hover .contact-icon,
-.contacts-item-header:focus .contact-icon,
-.contacts-item-header:hover .contact-link,
-.contacts-item-header:focus .contact-link {
+.contact-group-header:hover,
+.contact-group-header:focus {
   color: var(--tertiary-color);
   fill: var(--tertiary-color);
 }
@@ -159,12 +149,8 @@ body {
   color: var(--quaternary-color-opacity);
 }
 
-.contact-location-footer:hover,
-.contact-location-footer:focus,
-.contact-mail-footer:hover,
-.contact-mail-footer:focus,
-.contact-tel-footer:hover,
-.contact-tel-footer:focus {
+.contact-link-footer:hover,
+.contact-link-footer:focus {
   color: var(--tertiary-color);
   fill: var(--tertiary-color);
 }
